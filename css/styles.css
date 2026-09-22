@@ -1,0 +1,27 @@
+/* Estilos, Variables y Temas 
+CSS Custom Properties*/
+
+:root {
+/* Colores */
+--color-primary: #2563eb;
+--color-secondary: #7c3aed;
+--color-background: #ffffff;
+--color-surface: #f8fafc;
+--color-text: #0f172a;
+--color-text-muted: #64748b;
+
+/* Tipografía y Espaciado */
+--font-primary: 'Space Grotesk', 'Times New Roman', sans-serif;
+
+/* Espaciado */
+--space-sm: 0.5rem;
+--space-md: 1rem;
+--space-lg: 2rem;
+
+/* Bordes y radios */
+--radius-sm: 0.5rem;
+--radius-md: 1rem;
+
+/* Sombras */
+--shadow-card: 0 4px 12px rgb(0 0 0 / 0.1);
+}

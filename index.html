@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dyanne Moina - Portafolio de Desarrollo Web</title>
+    <meta name="description" content="Portafolio profesional de Dyanne Moina, estudiante de desarrollo web. Proyectos, habilidades y contacto." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <header class="site-header">
+    <nav class="navbar" aria-label="Navegación principal">
+      <a href="index.html" class="navbar__brand">Dyanne <span>Moina</span></a>
+
+      <button class="nav-toggle" data-nav-toggle aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+      </button>
+      <!-- ===Menu principal - portafolio=== -->
+      <ul class="navbar__links" data-nav-links>
+        <li><a href="index.html" aria-current="page">Inicio</a></li>
+        <li><a href="pages/sobre_mi.html">Sobre mí</a></li>
+        <li><a href="pages/habilidades.html">Habilidades</a></li>
+        <li><a href="pages/proyectos.html">Proyectos</a></li>
+        <li><a href="pages/design-system.html">Design System</a></li>
+        <li><a href="pages/contacto.html">Contacto</a></li>
+      </ul>
+
+      <div class="navbar__actions">
+        <button class="theme-toggle" data-theme-toggle aria-label="Cambiar tema">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== HERO / PRESENTACIÓN ===== -->
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero__content">
+        <p class="eyebrow">Desarrollo Web · Estudiante</p>
+        <h1 id="hero-title">Hola, Dyanne Moina.<br />Construyo interfaces web claras y funcionales.</h1>
+        <p class="text-muted">
+          Estudiante de Ingenieria de Software en la Universidad Estatal de Milagro (UNEMI), enfocado en desarrollo
+          UX, python y entre otras. Me interesa transformar ideas en productos web accesibles, bien estructurados y
+          agradables de usar, este portafolio es también mi cuaderno de práctica.
+        </p>
+        <div class="hero__actions">
+          <a href="pages/proyectos.html" class="btn btn--primary">Ver proyectos</a>
+          <a href="pages/contacto.html" class="btn btn--secondary">Contactarme</a>
+        </div>
+        <!--  Informacion Rapida -->
+        <div class="hero__meta">
+          <div>
+            <strong>3+</strong>
+            <span>Proyectos creados</span>
+          </div>
+          <div>
+            <strong>UNEMI</strong>
+            <span>Universidad Estatal de Milagro</span>
+          </div>
+          <div>
+            <strong>HTML · CSS · JS · Python</strong>
+            <span>Stack principal</span>
+          </div>
+        </div>
+      </div>
+
+      <figure class="hero__figure">
+        <div class="avatar-frame">
+          <span>DM</span>
+        </div>
+        <figcaption class="text-muted" style="text-align:center; margin-top: 0.75rem; font-size: 0.85rem;">
+          Reemplaza este bloque por tu foto real (aside → img)
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- ===== RESUMEN RÁPIDO ===== -->
+    <section aria-labelledby="resumen-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Qué vas a encontrar aquí</p>
+          <h2 id="resumen-title">Un recorrido corto por mi trabajo</h2>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card">
+            <h3>Sobre mí</h3>
+            <p class="text-muted">Mi formación, intereses y cómo llegué al desarrollo web.</p>
+            <a href="sobre-mi.html" class="btn btn--secondary btn--sm">Leer más →</a>
+          </article>
+          <article class="card card--accent">
+            <h3>Habilidades</h3>
+            <p class="text-muted">Tecnologías que domino y en las que sigo aprendiendo, por categoría.</p>
+            <a href="skills.html" class="btn btn--secondary btn--sm">Ver skills →</a>
+          </article>
+          <article class="card">
+            <h3>Proyectos</h3>
+            <p class="text-muted">Trabajos reales con su problema, solución y stack técnico.</p>
+            <a href="proyectos.html" class="btn btn--secondary btn--sm">Explorar →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Dyanne Moina. Portafolio construido con HTML, CSS y JavaScript.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" data-back-to-top aria-label="Volver arriba">↑</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
