@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design System - Dyanne Moina</title>
+    <meta name="description" content="Sistema visual y componentes reutilizables del portafolio de Dyanne Moina." />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+    <!-- ===== HEADER ===== -->
+    <header class="site-header">
+        <nav class="navbar" aria-label="Navegación principal">
+            <a href="../index.html" class="navbar__brand">Dyanne <span>Moina</span></a>
+            
+            <button class="nav-toggle" data-nav-toggle aria-label="Abrir menú" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            
+            <ul class="navbar__links" data-nav-links>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="sobre_mi.html">Sobre mí</a></li>
+                <li><a href="habilidades.html">Habilidades</a></li>
+                <li><a href="proyectos.html" >Proyectos</a></li>
+                <li><a href="design-system.html" aria-current="page">Design System</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+
+            <div class="navbar__actions">
+                <button class="theme-toggle"data-theme-toggle aria-label="Cambiar tema">🌙</button>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- ===== INTRODUCCIÓN ===== -->
+        <section class="section container">
+            <div class="section-title">
+                <p class="eyebrow">
+                    Design System
+                </p>
+                <h1>
+                    Sistema visual del portafolio
+                </h1>
+                <p class="design-intro">
+                    Esta sección reúne los colores, tipografías y componentes
+                    reutilizables utilizados para mantener una apariencia
+                    consistente en todo el portafolio.
+                </p>
+            </div>
+        </section>
+
+
+        <!-- ===== COLORES ===== -->
+        <section class="section container">
+            <div class="section-title">
+                <p class="eyebrow">Colores</p>
+                <h2>Paleta principal</h2>
+            </div>
+
+            <div class="color-grid">
+                <article class="color-card">
+                    <div class="color-preview color-preview--primary"></div>
+
+                    <div>
+                        <h3>Primary</h3>
+                        <p>#ff5e57</p>
+                    </div>
+                </article>
+
+                <article class="color-card">
+                    <div class="color-preview color-preview--secondary"></div>
+                    <div>
+                        <h3>Secondary</h3>
+                        <p>#8c7ae6</p>
+                    </div>
+                </article>
+
+                <article class="color-card">
+                    <div class="color-preview color-preview--background"></div>
+                    <div>
+                        <h3>Background</h3>
+                        <p>Variable según el tema</p>
+                    </div>
+                </article>
+
+                <article class="color-card">
+                    <div class="color-preview color-preview--surface"></div>
+                    <div>
+                        <h3>Surface</h3>
+                        <p>Superficie de tarjetas</p>
+                    </div>
+                </article>
+
+                <article class="color-card">
+                    <div class="color-preview color-preview--text"></div>
+                    <div>
+                        <h3>Text</h3>
+                        <p>Texto principal</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===== TIPOGRAFÍA ===== -->
+        <section class="section container">
+            <div class="section-title">
+                <p class="eyebrow">Tipografía</p>
+                <h2>Jerarquía de textos</h2>
+            </div>
+
+            <article class="design-panel">
+                <h1>Encabezado H1</h1>
+                <h2>Encabezado H2</h2>
+                <h3>Encabezado H3</h3>
+                <p>
+                    Este es un ejemplo de párrafo utilizado
+                    dentro del portafolio.
+                </p>
+                <p class="text-muted">
+                    Este es un ejemplo de texto secundario.
+                </p>
+                <span class="demo-link">
+                    Ejemplo de enlace
+                </span>
+            </article>
+        </section>
+
+        <!-- ===== BOTONES ===== -->
+        <section class="section container">
+            <div class="section-title">
+                <p class="eyebrow">Componentes</p>
+                <h2>Botones</h2>
+            </div>
+
+            <article class="design-panel">
+                <div class="design-components">
+                    <button class="btn btn--primary">
+                        Botón primario
+                    </button>
+                    <button class="btn btn--secondary">
+                        Botón secundario
+                    </button>
+                    <button class="btn btn--primary btn--sm">
+                        Botón pequeño
+                    </button>
+                </div>
+            </article>
+        </section>
+
+        <!-- ===== SKILL BADGE ===== -->
+        <section class="section container">
+            <div class="section-title">
+                <p class="eyebrow">Componentes</p>
+                <h2>Skill badges</h2>
+            </div>
+
+            <article class="design-panel">
+                <div class="design-components">
+                    <span class="skill-badge">
+                        HTML
+                    </span>
+                    <span class="skill-badge">
+                        CSS
+                    </span>
+                    <span class="skill-badge">
+                        JavaScript
+                    </span>
+                    <span class="skill-badge">
+                        Python
+                    </span>
+                </div>
+            </article>
+        </section>
+
+        <!-- ===== TARJETAS ===== -->
+        <section class="section container">
+            <div class="section-title">
+                <p class="eyebrow">Componentes</p>
+                <h2>Tarjetas</h2>
+            </div>
+
+            <div class="cards-grid">
+                <article class="card">
+                    <h3>Ejemplo de tarjeta</h3>
+                    <p>
+                        Este componente se utiliza para organizar
+                        información dentro del portafolio.
+                    </p>
+                    <button type="button" class="btn btn--secondary btn--sm">
+                        Acción
+                    </button>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===== FORMULARIOS ===== -->
+        <section class="section container">
+
+            <div class="section-title">
+                <p class="eyebrow">Componentes</p>
+                <h2>Campos de formulario</h2>
+            </div>
+
+            <article class="design-panel">
+                <div class="form-group">
+                    <label for="demo-name">
+                        Nombre
+                    </label>
+                    <input
+                        type="text"
+                        id="demo-name"
+                        placeholder="Escribe tu nombre">
+                </div>
+
+                <div class="form-group">
+                    <label for="demo-message">
+                        Mensaje
+                    </label>
+                    <textarea
+                        id="demo-message"
+                        rows="4"
+                        placeholder="Escribe un mensaje"
+                    ></textarea>
+                </div>
+            </article>
+        </section>
+
+        <!-- ===== ESPACIADO ===== -->
+        <section class="section container">
+            <div class="section-title">
+                <p class="eyebrow">Espaciado</p>
+                <h2>Escala utilizada</h2>
+            </div>
+
+            <article class="design-panel">
+                <div class="spacing-demo">
+                    <div>
+                        <span class="spacing-box spacing-box--sm"></span>
+                        <p>Small · 0.5rem</p>
+                    </div>
+                    <div>
+                        <span class="spacing-box spacing-box--md"></span>
+                        <p>Medium · 1rem</p>
+                    </div>
+                    <div>
+                        <span class="spacing-box spacing-box--lg"></span>
+                        <p>Large · 2rem</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2026 Dyanne Moina. Portafolio construido con HTML, CSS y JavaScript.</p>
+        </div>
+    </footer>
+    
+    <button class="back-to-top" data-back-to-top aria-label="Volver arriba">↑</button>
+    
+    <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos - Dyanne Moina</title>
+    <meta name="description" content="Proyectos académicos y personales desarrollados por Dyanne Moina." />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+    <!-- ===== HEADER ===== -->
+    <header class="site-header">
+        <nav class="navbar" aria-label="Navegación principal">
+            <a href="../index.html" class="navbar__brand">Dyanne <span>Moina</span></a>
+            
+            <button class="nav-toggle" data-nav-toggle aria-label="Abrir menú" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            
+            <ul class="navbar__links" data-nav-links>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="sobre_mi.html">Sobre mí</a></li>
+                <li><a href="habilidades.html">Habilidades</a></li>
+                <li><a href="proyectos.html" aria-current="page">Proyectos</a></li>
+                <li><a href="design-system.html">Design System</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+
+            <div class="navbar__actions">
+                <button class="theme-toggle"data-theme-toggle aria-label="Cambiar tema">🌙</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ===== PRESENTACIÓN ===== -->
+        <section class="section container" aria-labelledby="skills-title">
+            <div class="section-title">
+                <p class="eyebrow">Proyectos</p>
+                <h1 id="projects-title">Algunos proyectos que forman parte de mi aprendizaje</h1>
+                <p class="projects-intro">
+                    En esta sección presento proyectos desarrollados durante
+                    mi formación académica y personal. Cada uno representa una
+                    oportunidad para aplicar conocimientos, resolver problemas
+                    y seguir mejorando mis habilidades.
+                </p>
+            </div>
+        </section>
+
+        <!-- ===== FILTROS ===== -->
+        <section class="section container">
+            <div class="project-filters" aria-label="Filtrar proyectos">
+                <button class="filter-btn active" data-filter="all">
+                    Todos
+                </button>
+                
+                <button class="filter-btn" data-filter="web">
+                    Desarrollo web
+                </button>
+                
+                <button class="filter-btn" data-filter="database">
+                    Bases de datos
+                </button>
+                
+                <button class="filter-btn" data-filter="python">
+                    Python
+                </button>
+            </div>
+        </section>
+
+        <!-- ===== LISTA DE PROYECTOS ===== -->
+        <section class="section container">
+            <div class="projects-grid">
+                <!-- ===== PROYECTO 1 ===== -->
+                <article class="project-card" data-category="web database python">
+                    <div class="project-card__image">
+                        <div class="project-placeholder">
+                            InventFast
+                        </div>
+                    </div>
+
+                    <div class="project-card__content">
+                        <p class="eyebrow">
+                            Proyecto académico
+                        </p>
+                        <h2>
+                            InventFast
+                        </h2>
+                        <p>
+                            Sistema de gestión de inventario inteligente
+                            desarrollado como proyecto académico, orientado
+                            a organizar y gestionar información relacionada
+                            con productos e inventario.
+                        </p>
+                        <div class="project-tags">
+                            <span class="skill-badge">
+                                Python
+                            </span>
+                            <span class="skill-badge">
+                                Django
+                            </span>
+                            <span class="skill-badge">
+                                PostgreSQL
+                            </span>
+                        </div>
+                        <div class="project-card__actions">
+                            <a href="#" class="btn btn--primary btn--sm">
+                                Ver proyecto
+                            </a>
+                            <a href="#" class="btn btn--secondary btn--sm">
+                                Repositorio
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- ===== PROYECTO 2 ===== -->
+                <article class="project-card" data-category="web">
+                    <div class="project-card__image">
+                        <div class="project-placeholder">
+                            Próximamente
+                        </div>
+                    </div>
+
+                    <div class="project-card__content">
+                        <p class="eyebrow">
+                            Proyecto pendiente
+                        </p>
+                        <h2>
+                            Próximo proyecto
+                        </h2>
+                        <p>
+                            Este espacio será reemplazado por uno de mis
+                            proyectos académicos una vez seleccione el que
+                            mejor represente mi proceso de aprendizaje.
+                        </p>
+                        <div class="project-tags">
+                            <span class="skill-badge">
+                                Web
+                            </span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- ===== PROYECTO 3 ===== -->
+                <article class="project-card" data-category="database">
+                    <div class="project-card__image">
+                        <div class="project-placeholder">
+                            Próximamente
+                        </div>
+                    </div>
+
+                    <div class="project-card__content">
+                        <p class="eyebrow">
+                            Proyecto pendiente
+                        </p>
+                        <h2>
+                            Próximo proyecto
+                        </h2>
+                        <p>
+                            Este espacio será reemplazado posteriormente
+                            por otro proyecto académico que pueda explicar
+                            y defender de manera adecuada.
+                        </p>
+                        <div class="project-tags">
+                            <span class="skill-badge">
+                                Base de datos
+                            </span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2026 Dyanne Moina. Portafolio construido con HTML, CSS y JavaScript.</p>
+        </div>
+    </footer>
+    
+    <button class="back-to-top" data-back-to-top aria-label="Volver arriba">↑</button>
+    
+    <script src="../js/script.js"></script>
+</body>
+</html>
