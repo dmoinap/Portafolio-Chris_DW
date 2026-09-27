@@ -690,6 +690,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
+  align-items: center;
 }
 
 .spacing-demo > div {
@@ -700,10 +701,9 @@ body {
 
 .spacing-box {
   display: inline-block;
-
   background-color: var(--color-secondary);
-
   border-radius: 4px;
+  flex-shrink: 0;
 }
 
 .spacing-box--sm {
@@ -900,4 +900,77 @@ body {
     animation: none !important;
     transition: none !important;
   }
+}
+
+/* ==========================================
+   BOTÓN VOLVER ARRIBA
+========================================== */
+
+.back-to-top {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+
+  width: 52px;
+  height: 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  border-radius: 50%;
+
+  background: linear-gradient(
+    135deg,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+
+  color: #ffffff;
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1;
+
+  cursor: pointer;
+
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.18);
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(12px);
+
+  transition:
+    opacity 0.25s ease,
+    visibility 0.25s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+
+  z-index: 90;
+}
+
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.back-to-top:hover {
+  transform: translateY(-4px) scale(1.04);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.22);
+}
+
+.back-to-top:active {
+  transform: translateY(-1px) scale(0.98);
+}
+
+.site-footer {
+  margin-top: 3rem;
+  padding: 2rem 0 2.5rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.site-footer p {
+  color: var(--color-text-muted);
+  text-align: center;
 }
