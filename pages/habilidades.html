@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
 </head>
 <body>
     <!-- ===== HEADER ===== -->
@@ -29,7 +30,22 @@
             </ul>
 
             <div class="navbar__actions">
-                <button class="theme-toggle"data-theme-toggle aria-label="Cambiar tema">🌙</button>
+                <button class="theme-toggle" data-theme-toggle aria-label="Cambiar tema">
+                <svg class="icon icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="4"></circle>
+                    <line x1="12" y1="2" x2="12" y2="4"></line>
+                    <line x1="12" y1="20" x2="12" y2="22"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="2" y1="12" x2="4" y2="12"></line>
+                    <line x1="20" y1="12" x2="22" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+                <svg class="icon icon-moon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"></path>
+                </svg>
+                </button>
             </div>
         </nav>
     </header>
@@ -67,7 +83,10 @@
                 </div>
                 <div class="skills-list">
                     <article class="skill-item">
-                        <span class="skill-badge">HTML</span>
+                        <span class="skill-badge">
+                            <i class="devicon-html5-plain colored skill-icon">
+                            </i>HTML
+                        </span>
                         <div>
                             <h3>HTML</h3>
                             <p>
@@ -78,7 +97,10 @@
                         </div>
                     </article>
                     <article class="skill-item">
-                        <span class="skill-badge">CSS</span>
+                        <span class="skill-badge">
+                            <i class="devicon-css3-plain colored skill-icon">
+                            </i>CSS
+                    </span>
                         <div>
                             <h3>CSS</h3>
                             <p>
@@ -89,7 +111,10 @@
                         </div>
                     </article>
                     <article class="skill-item">
-                        <span class="skill-badge">JavaScript</span>
+                        <span class="skill-badge">
+                            <i class="devicon-javascript-plain colored skill-icon">
+                            </i>JS
+                        </span>
                         <div>
                             <h3>JavaScript</h3>
                             <p>
@@ -114,7 +139,10 @@
             <article class="skill-group">
                 <div class="skills-list">
                     <article class="skill-item">
-                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">
+                            <i class="devicon-python-plain colored skill-icon">
+                            </i>Python
+                        </span>
                         <div>
                             <h3>Python</h3>
                             <p>
@@ -141,7 +169,22 @@
             <article class="skill-group">
                 <div class="skills-list">
                     <article class="skill-item">
-                        <span class="skill-badge">SQL</span>
+                        <span class="skill-badge">
+                            <svg
+                                class="skill-icon-svg"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                aria-hidden="true" >
+                                <ellipse cx="12" cy="5" rx="8" ry="3"></ellipse>
+                                <path d="M4 5v6c0 1.66 3.58 3 8 3s8-1.34 8-3V5"></path>
+                                <path d="M4 11v6c0 1.66 3.58 3 8 3s8-1.34 8-3v-6"></path>
+                            </svg>
+                            SQL
+                        </span>
                         <div>
                             <h3>SQL</h3>
                             <p>
@@ -153,7 +196,10 @@
                         </div>
                     </article>
                     <article class="skill-item">
-                        <span class="skill-badge">PostgreSQL</span>
+                        <span class="skill-badge">
+                            <i class="devicon-postgresql-plain colored skill-icon"></i>
+                            Postgre
+                        </span>
                         <div>
                             <h3>PostgreSQL</h3>
                             <p>
@@ -164,7 +210,10 @@
                         </div>
                     </article>
                     <article class="skill-item">
-                        <span class="skill-badge">MySQL</span>
+                        <span class="skill-badge">
+                            <i class="devicon-mysql-plain colored skill-icon"></i>
+                            MySQL
+                        </span>
                         <div>
                             <h3>MySQL</h3>
                             <p>
@@ -190,7 +239,10 @@
             <article class="skill-group">
                 <div class="skills-list">
                     <article class="skill-item">
-                        <span class="skill-badge">Git</span>
+                        <span class="skill-badge">
+                            <i class="devicon-git-plain colored skill-icon"></i>
+                            Git
+                        </span>
                         <div>
                             <h3>Git y GitHub</h3>
                             <p>
@@ -202,7 +254,10 @@
                         </div>
                     </article>
                     <article class="skill-item">
-                        <span class="skill-badge">Linux</span>
+                        <span class="skill-badge">
+                            <i class="devicon-linux-plain colored skill-icon"></i>
+                            Linux
+                        </span>
                         <div>
                             <h3>Linux</h3>
                             <p>
@@ -214,7 +269,10 @@
                         </div>
                     </article>
                     <article class="skill-item">
-                        <span class="skill-badge">VS Code</span>
+                        <span class="skill-badge">
+                            <i class="devicon-vscode-plain colored skill-icon"></i>
+                            VS Code
+                        </span>
                         <div>
                             <h3>Visual Studio Code</h3>
                             <p>
@@ -226,7 +284,10 @@
                         </div>
                     </article>
                     <article class="skill-item">
-                        <span class="skill-badge">Figma</span>
+                        <span class="skill-badge">
+                            <i class="devicon-figma-plain colored skill-icon"></i>
+                            Figma
+                        </span>
                         <div>
                             <h3>Figma</h3>
                             <p>
@@ -251,7 +312,22 @@
             <article class="skill-group">
                 <div class="skills-list">
                     <article class="skill-item">
-                        <span class="skill-badge">Packet Tracer</span>
+                        <span class="skill-badge">
+                            <svg
+                                class="skill-icon-svg"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                aria-hidden="true">
+                                <circle cx="6" cy="6" r="2"></circle>
+                                <circle cx="18" cy="6" r="2"></circle>
+                                <circle cx="12" cy="18" r="2"></circle>
+                                <path d="M6 8v4l6 4M18 8v4l-6 4"></path>
+                            </svg>
+                            Packet Tracer</span>
                         <div>
                             <h3>Cisco Packet Tracer</h3>
                             <p>
