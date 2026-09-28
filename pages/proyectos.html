@@ -51,36 +51,62 @@
 
     <main>
         <!-- ===== PRESENTACIÓN ===== -->
-        <section class="section container" aria-labelledby="projects-title">
+        <section class="section container projects-header"  aria-labelledby="projects-title">
             <div class="section-title">
-                <p class="eyebrow">Proyectos</p>
-                <h1 id="projects-title">Algunos proyectos que forman parte de mi aprendizaje</h1>
+                <p class="eyebrow">
+                    Portafolio académico
+                </p>
+                <h1 id="projects-title">
+                    Proyectos destacados
+                </h1>
                 <p class="projects-intro">
-                    En esta sección presento proyectos desarrollados durante
-                    mi formación académica y personal. Cada uno representa una
-                    oportunidad para aplicar conocimientos, resolver problemas
-                    y seguir mejorando mis habilidades.
+                    Estos proyectos forman parte de mi proceso de aprendizaje
+                    en Ingeniería de Software. En ellos he trabajado con
+                    desarrollo web, Python, bases de datos e inteligencia
+                    artificial para resolver diferentes necesidades.
                 </p>
             </div>
         </section>
 
         <!-- ===== FILTROS ===== -->
-        <section class="section container">
-            <div class="project-filters" aria-label="Filtrar proyectos">
-                <button class="filter-btn active" data-filter="all">
+        <section class="projects-filter-section container">
+            <div
+                class="project-filters" aria-label="Filtrar proyectos">
+                <button
+                    class="filter-btn active"
+                    data-filter="all">
                     Todos
                 </button>
-                
-                <button class="filter-btn" data-filter="web">
+                <button
+                    class="filter-btn"
+                    data-filter="python">
+                    Python
+                </button>
+                <button
+                    class="filter-btn"
+                    data-filter="django">
+                    Django
+                </button>
+                <button
+                    class="filter-btn"
+                    data-filter="web">
                     Desarrollo web
                 </button>
-                
-                <button class="filter-btn" data-filter="database">
+                <button
+                    class="filter-btn"
+                    data-filter="database"
+                >
                     Bases de datos
                 </button>
-                
-                <button class="filter-btn" data-filter="python">
-                    Python
+                <button
+                    class="filter-btn"
+                    data-filter="ai">
+                    Inteligencia artificial
+                </button>
+                <button
+                    class="filter-btn"
+                    data-filter="desktop">
+                    Escritorio
                 </button>
             </div>
         </section>
@@ -88,101 +114,293 @@
         <!-- ===== LISTA DE PROYECTOS ===== -->
         <section class="section container">
             <div class="projects-grid">
-                <!-- ===== PROYECTO 1 ===== -->
-                <article class="project-card" data-category="web database python">
-                    <div class="project-card__image">
-                        <div class="project-placeholder">
-                            InventFast
-                        </div>
-                    </div>
+                <!-- ==========================================
+                    PROYECTO 1 - CALCULADORA CIENTÍFICA
+                =========================================== -->
+                <article class="project-card" data-category="python desktop">
+                    <figure class="project-card__image">
+                        <img
+                            src="../assest/image/proyectos/calculadora-cientifica.jpeg"
+                            alt="Pantalla principal de la aplicación Calculadora Científica"
+                            class="project-card__img">
+                    </figure>
 
                     <div class="project-card__content">
                         <p class="eyebrow">
-                            Proyecto académico
+                            Aplicación de escritorio
                         </p>
                         <h2>
-                            InventFast
+                            Calculadora Científica
                         </h2>
-                        <p>
-                            Sistema de gestión de inventario inteligente
-                            desarrollado como proyecto académico, orientado
-                            a organizar y gestionar información relacionada
-                            con productos e inventario.
+                        <p class="project-card__description">
+                            Aplicación desarrollada en Python para apoyar la
+                            resolución de problemas matemáticos mediante
+                            módulos de matrices, vectores, polinomios,
+                            cálculo, ecuaciones diferenciales, gráficas y
+                            otros cálculos académicos.
                         </p>
-                        <div class="project-tags">
-                            <span class="skill-badge">
-                                Python
-                            </span>
-                            <span class="skill-badge">
-                                Django
-                            </span>
-                            <span class="skill-badge">
-                                PostgreSQL
-                            </span>
+
+                        <div class="project-card__problem">
+                            <h3>
+                                Problema que resuelve
+                            </h3>
+                            <p>
+                                Centraliza diferentes herramientas matemáticas
+                                en una sola aplicación con interfaz gráfica,
+                                facilitando el desarrollo y la visualización
+                                de ejercicios académicos.
+                            </p>
                         </div>
+
+                        <div class="project-card__technologies">
+                            <h3>Tecnologías utilizadas</h3>
+                            <div class="project-tags">
+                                <span class="project-tag">Python</span>
+                                <span class="project-tag">PyQt5</span>
+                                <span class="project-tag">NumPy</span>
+                                <span class="project-tag">SymPy</span>
+                                <span class="project-tag">Matplotlib</span>
+                                <span class="project-tag">SciPy</span>
+                            </div>
+                        </div>
+
                         <div class="project-card__actions">
-                            <a href="#" class="btn btn--primary btn--sm">
-                                Ver proyecto
-                            </a>
-                            <a href="#" class="btn btn--secondary btn--sm">
-                                Repositorio
+                            <a
+                                href="https://github.com/dmoinap/calculadora-cientifica_final"
+                                class="btn btn--secondary btn--sm"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                Ver repositorio
                             </a>
                         </div>
                     </div>
                 </article>
 
-                <!-- ===== PROYECTO 2 ===== -->
-                <article class="project-card" data-category="web">
-                    <div class="project-card__image">
-                        <div class="project-placeholder">
-                            Próximamente
-                        </div>
-                    </div>
+                <!-- ==========================================
+                    PROYECTO 2 - INVENTFAST
+                =========================================== -->
+                <article class="project-card" data-category="python django web database">
+                    <figure class="project-card__image">
+                        <img
+                            src="../assest/image/proyectos/inventfast.jpeg"
+                            alt="Pantalla principal del sistema InventFast"
+                            class="project-card__img">
+                    </figure>
 
                     <div class="project-card__content">
                         <p class="eyebrow">
-                            Proyecto pendiente
+                            Aplicación web
                         </p>
                         <h2>
-                            Próximo proyecto
+                            InventFast
                         </h2>
-                        <p>
-                            Este espacio será reemplazado por uno de mis
-                            proyectos académicos una vez seleccione el que
-                            mejor represente mi proceso de aprendizaje.
+                        <p class="project-card__subtitle">
+                            Sistema Inteligente de Gestión de Inventario
                         </p>
-                        <div class="project-tags">
-                            <span class="skill-badge">
-                                Web
-                            </span>
+                        <p class="project-card__description">
+                            Aplicación web desarrollada con Django para
+                            gestionar productos, inventario, categorías,
+                            marcas, usuarios, facturas y reportes,
+                            incorporando herramientas de análisis de datos.
+                        </p>
+
+                        <div class="project-card__problem">
+                            <h3>
+                                Problema que resuelve
+                            </h3>
+                            <p>
+                                Facilita el control del inventario y ayuda a
+                                tomar decisiones relacionadas con la
+                                reposición y el comportamiento de productos
+                                mediante análisis de datos.
+                            </p>
+                        </div>
+
+                        <div class="project-card__technologies">
+                            <h3>Tecnologías utilizadas</h3>
+                            <div class="project-tags">
+                                <span class="project-tag">Python</span>
+                                <span class="project-tag">Django</span>
+                                <span class="project-tag">SQLite</span>
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">Tailwind CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                                <span class="project-tag">Pandas</span>
+                                <span class="project-tag">NumPy</span>
+                                <span class="project-tag">SciPy</span>
+                                <span class="project-tag">Scikit-learn</span>
+                                <span class="project-tag">Chart.js</span>
+                                <span class="project-tag">WeasyPrint</span>
+                                <span class="project-tag">Pillow</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card__actions">
+                            <a
+                                href="https://github.com/dmoinap/inventfast"
+                                class="btn btn--secondary btn--sm"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                Ver repositorio
+                            </a>
                         </div>
                     </div>
                 </article>
 
-                <!-- ===== PROYECTO 3 ===== -->
-                <article class="project-card" data-category="database">
-                    <div class="project-card__image">
-                        <div class="project-placeholder">
-                            Próximamente
-                        </div>
-                    </div>
+                <!-- ==========================================
+                    PROYECTO 3 - SISTEMA DE CITAS MÉDICAS
+                =========================================== -->
+                <article class="project-card" data-category="python django web database">
+                    <figure class="project-card__image">
+                        <img
+                            src="../assest/image/proyectos/sistema-citas-medicas.jpeg"
+                            alt="Pantalla principal del Sistema de Gestión de Citas Médicas"
+                            class="project-card__img">
+                    </figure>
 
                     <div class="project-card__content">
                         <p class="eyebrow">
-                            Proyecto pendiente
+                            Aplicación web
                         </p>
                         <h2>
-                            Próximo proyecto
+                            Sistema de Gestión de Citas Médicas
                         </h2>
-                        <p>
-                            Este espacio será reemplazado posteriormente
-                            por otro proyecto académico que pueda explicar
-                            y defender de manera adecuada.
+                        <p class="project-card__description">
+                            Aplicación web desarrollada con Django para
+                            gestionar pacientes, médicos, citas y atenciones
+                            médicas, incluyendo autenticación, permisos,
+                            exámenes, medicamentos y generación de documentos.
                         </p>
-                        <div class="project-tags">
-                            <span class="skill-badge">
-                                Base de datos
-                            </span>
+
+                        <div class="project-card__problem">
+                            <h3>
+                                Problema que resuelve
+                            </h3>
+                            <p>
+                                Centraliza la gestión de información médica y
+                                citas, reduciendo la dependencia de procesos
+                                manuales para organizar pacientes, médicos y
+                                atenciones.
+                            </p>
+                        </div>
+
+                        <div class="project-card__technologies">
+                            <h3>Tecnologías utilizadas</h3>
+                            <div class="project-tags">
+                                <span class="project-tag">Python</span>
+                                <span class="project-tag">Django</span>
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">Bootstrap</span>
+                                <span class="project-tag">JavaScript</span>
+                                <span class="project-tag">SQLite</span>
+                                <span class="project-tag">PostgreSQL</span>
+                                <span class="project-tag">ReportLab</span>
+                                <span class="project-tag">Pillow</span>
+                                <span class="project-tag">django-widget-tweaks</span>
+                                <span class="project-tag">django-extensions</span>
+                                <span class="project-tag">django-celery-beat</span>
+                                <span class="project-tag">Resend</span>
+                                <span class="project-tag">PayPal REST SDK</span>
+                                <span class="project-tag">python-dotenv</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card__actions">
+                            <a
+                                href="https://github.com/dmoinap/sistema-citas-medicas"
+                                class="btn btn--secondary btn--sm"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                Ver repositorio
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- ==========================================
+                    PROYECTO 4 - INTELIGENCIA ARTIFICIAL
+                =========================================== -->
+                <article class="project-card" data-category="python ai">
+                    <figure class="project-card__image">
+                        <img
+                            src="../assest/image/proyectos/deteccion-enfermedades-maiz.jpeg"
+                            alt="Interfaz del sistema de detección de enfermedades en hojas de maíz"
+                            class="project-card__img">
+                    </figure>
+
+                    <div class="project-card__content">
+                        <p class="eyebrow">
+                            Inteligencia artificial
+                        </p>
+                        <h2>
+                            Detección de Enfermedades en Cultivos de Maíz
+                        </h2>
+                        <p class="project-card__description">
+                            Sistema de visión artificial desarrollado para
+                            clasificar y detectar enfermedades y plagas en
+                            hojas de maíz mediante técnicas de Deep Learning.
+                            Se evaluaron arquitecturas CNN y un modelo YOLOv8,
+                            integrados posteriormente en una interfaz
+                            interactiva con Gradio.
+                        </p>
+
+                        <div class="project-card__problem">
+                            <h3>
+                                Problema que resuelve
+                            </h3>
+                            <p>
+                                Busca apoyar el diagnóstico fitosanitario
+                                mediante la detección automática de
+                                enfermedades y plagas, reduciendo la
+                                dependencia de inspecciones visuales manuales.
+                            </p>
+                        </div>
+
+                        <div class="project-card__result">
+                            <h3>
+                                Resultado destacado
+                            </h3>
+                            <p>
+                                MobileNetV2 alcanzó una exactitud de
+                                <strong>94,54 %</strong> y un
+                                <strong>F1-Score de 0,94</strong>.
+                            </p>
+                        </div>
+
+                        <div class="project-card__technologies">
+                            <h3>Tecnologías utilizadas</h3>
+                            <div class="project-tags">
+                                <span class="project-tag">Python</span>
+                                <span class="project-tag">TensorFlow</span>
+                                <span class="project-tag">Keras</span>
+                                <span class="project-tag">YOLOv8</span>
+                                <span class="project-tag">Ultralytics</span>
+                                <span class="project-tag">MobileNetV2</span>
+                                <span class="project-tag">ResNet50</span>
+                                <span class="project-tag">EfficientNetB0</span>
+                                <span class="project-tag">Transfer Learning</span>
+                                <span class="project-tag">Gradio</span>
+                                <span class="project-tag">Google Colab</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card__actions">
+                            <a
+                                href="https://colab.research.google.com/drive/1iUB0MeePZXqdhwMYhr2fLbnHPYpbhJj9?usp=sharing"
+                                class="btn btn--secondary btn--sm"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                Ver notebook 1
+                            </a>
+                            <a
+                                href="https://colab.research.google.com/drive/1Y7jxb_IZwSDg4-xq8hg_4HoFhItrGrkr?usp=sharing"
+                                class="btn btn--secondary btn--sm"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                Ver notebook 2
+                            </a>
                         </div>
                     </div>
                 </article>
@@ -197,6 +415,7 @@
         </div>
     </footer>
     
+    <!-- ===== BOTÓN VOLVER ARRIBA ===== -->
     <button class="back-to-top" data-back-to-top aria-label="Volver arriba">
         <svg
             viewBox="0 0 24 24"
