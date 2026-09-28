@@ -2,17 +2,19 @@
 
 > Portafolio personal desarrollado como proyecto académico para la asignatura de **Desarrollo Web**, creado para presentar mi formación, habilidades, proyectos y evolución como estudiante de Ingeniería de Software.
 
-🌐 **Portafolio:** [Ver sitio web](https://dmoinap.github.io/Portafolio-Chris_DW/)
+🌐 **Portafolio publicado:** [Ver sitio web](https://dmoinap.github.io/Portafolio-Chris_DW/)
+
+📂 **Repositorio:** [Ver repositorio en GitHub](https://github.com/dmoinap/Portafolio-Chris_DW)
 
 ---
 
 ## 👩‍💻 Sobre el proyecto
 
-Este portafolio nace como un espacio personal para **mostrar los proyectos que he desarrollado durante mi formación en Ingeniería de Software**, así como las tecnologías y conocimientos que he ido adquiriendo.
+Este portafolio nace como un espacio personal para **mostrar los proyectos que he desarrollado durante mi formación en Ingeniería de Software**, así como las tecnologías, herramientas y conocimientos que he ido adquiriendo.
 
 Además de funcionar como una presentación personal, el proyecto fue una oportunidad para aplicar conceptos de **desarrollo frontend, diseño de interfaces, experiencia de usuario, responsive design y JavaScript**.
 
-La página busca mantener una interfaz sencilla, moderna y organizada, permitiendo que la información pueda ser consultada fácilmente desde diferentes dispositivos.
+La página busca mantener una interfaz sencilla, moderna y organizada, permitiendo que la información pueda consultarse fácilmente desde diferentes dispositivos.
 
 ---
 
@@ -20,25 +22,25 @@ La página busca mantener una interfaz sencilla, moderna y organizada, permitien
 
 Crear un espacio web personal que permita:
 
-* Presentar mi perfil académico y profesional.
-* Mostrar proyectos desarrollados durante la carrera.
-* Dar a conocer mis habilidades técnicas.
-* Aplicar principios de diseño y organización visual.
-* Facilitar medios de contacto.
-* Servir como una base para seguir incorporando nuevos proyectos y aprendizajes.
+- Presentar mi perfil académico y profesional.
+- Mostrar proyectos desarrollados durante la carrera.
+- Dar a conocer mis habilidades técnicas.
+- Aplicar principios de diseño y organización visual.
+- Facilitar medios de contacto.
+- Servir como base para seguir incorporando nuevos proyectos y aprendizajes.
 
 ---
 
 ## 🛠️ Tecnologías utilizadas
 
-| Tecnología          | Uso                                        |
-| ------------------- | ------------------------------------------ |
-| 🌐 **HTML5**        | Estructura y contenido del sitio           |
-| 🎨 **CSS3**         | Diseño, estilos y responsive design        |
-| ⚡ **JavaScript**    | Interactividad y funcionalidades dinámicas |
-| 🔧 **Git**          | Control de versiones                       |
-| 🐙 **GitHub**       | Gestión y publicación del repositorio      |
-| 🚀 **GitHub Pages** | Despliegue del sitio web                   |
+| Tecnología | Uso |
+| --- | --- |
+| 🌐 **HTML5** | Estructura y contenido del sitio |
+| 🎨 **CSS3** | Diseño, estilos y responsive design |
+| ⚡ **JavaScript** | Interactividad y funcionalidades dinámicas |
+| 🔧 **Git** | Control de versiones |
+| 🐙 **GitHub** | Gestión del repositorio |
+| 🚀 **GitHub Pages** | Publicación del sitio web |
 
 ---
 
@@ -46,27 +48,38 @@ Crear un espacio web personal que permita:
 
 ### 🌓 Modo claro y oscuro
 
-El usuario puede alternar entre diferentes modos de visualización para adaptar la experiencia a sus preferencias.
+El usuario puede alternar entre modo claro y oscuro. La preferencia seleccionada se conserva mediante `localStorage`.
 
 ### 📱 Diseño responsive
 
-La interfaz se adapta a diferentes tamaños de pantalla, permitiendo utilizar el portafolio desde:
+La interfaz se adapta a diferentes tamaños de pantalla:
 
-* 💻 Computadores
-* 📱 Teléfonos
-* 📟 Tablets
+- 💻 Computadoras
+- 📟 Tablets
+- 📱 Teléfonos
+
+### 📱 Menú responsive
+
+En dispositivos móviles, la navegación se adapta mediante un menú desplegable que puede abrirse y cerrarse desde el botón de navegación.
 
 ### 🔎 Filtro de proyectos
 
-Los proyectos pueden filtrarse de acuerdo con diferentes **tecnologías y áreas**, facilitando la búsqueda de trabajos específicos.
+Los proyectos pueden filtrarse según diferentes tecnologías y áreas, como:
 
-### 📩 Formulario de contacto
+- Python
+- Django
+- Desarrollo web
+- Bases de datos
+- Inteligencia artificial
+- Aplicaciones de escritorio
 
-El sitio incorpora un formulario con **validación mediante JavaScript** para comprobar los datos ingresados por el usuario.
+### 📩 Validación del formulario
 
-### ⬆️ Botón de regreso al inicio
+El formulario de contacto incorpora validaciones realizadas con JavaScript para comprobar los datos ingresados por el usuario.
 
-Permite regresar rápidamente a la parte superior de la página durante la navegación.
+### ⬆️ Botón volver arriba
+
+En páginas extensas aparece un botón que permite regresar suavemente a la parte superior.
 
 ---
 
@@ -74,27 +87,27 @@ Permite regresar rápidamente a la parte superior de la página durante la naveg
 
 ### 🏠 Inicio
 
-Presentación principal y acceso a las diferentes secciones del portafolio.
+Presentación principal del portafolio y acceso a las diferentes secciones.
 
 ### 👩‍💻 Sobre mí
 
-Información sobre mi perfil, formación y enfoque como estudiante de Ingeniería de Software.
+Información sobre mi formación académica, intereses y proceso de aprendizaje dentro del área tecnológica.
 
 ### 🧠 Habilidades
 
-Presentación de las tecnologías y herramientas que he utilizado durante mi formación.
+Presentación de tecnologías, herramientas y metodologías que he utilizado durante mi formación académica.
 
 ### 🚀 Proyectos destacados
 
-Una selección de proyectos académicos y personales desarrollados durante la carrera.
+Selección de proyectos académicos desarrollados durante la carrera.
 
 ### 🎨 Design System
 
-Sección dedicada a mostrar los elementos visuales utilizados para mantener una identidad gráfica consistente dentro del sitio.
+Sección que documenta los elementos visuales utilizados en el portafolio, incluyendo colores, tipografía, botones, tarjetas, formularios y espaciado.
 
 ### 📬 Contacto
 
-Espacio destinado a facilitar la comunicación y proporcionar medios de contacto.
+Información de contacto y formulario con validación mediante JavaScript.
 
 ---
 
@@ -102,163 +115,184 @@ Espacio destinado a facilitar la comunicación y proporcionar medios de contacto
 
 ## 🧮 Calculadora Científica
 
-Aplicación de escritorio desarrollada con **Python y PyQt5** para trabajar con diferentes operaciones de cálculo, álgebra lineal, polinomios, vectores, ecuaciones diferenciales y visualización de funciones.
+Aplicación de escritorio desarrollada en Python para apoyar la resolución de problemas matemáticos.
+
+Incluye diferentes módulos relacionados con matrices, vectores, polinomios, cálculo, ecuaciones diferenciales, gráficas, valores y vectores propios y generación de números aleatorios.
+
+**Problema que resuelve:** centraliza diferentes herramientas matemáticas en una sola aplicación con interfaz gráfica, facilitando el desarrollo y visualización de ejercicios académicos.
 
 **Tecnologías:** Python · PyQt5 · NumPy · SymPy · Matplotlib · SciPy
+
+🔗 **Repositorio:** [Calculadora Científica](https://github.com/dmoinap/calculadora-cientifica_final)
 
 ---
 
 ## 📦 InventFast
 
-Sistema web de **gestión inteligente de inventario** desarrollado para facilitar el control de productos, movimientos de stock, proveedores y reportes.
+Sistema web de gestión inteligente de inventario desarrollado con Django.
 
-El proyecto incorpora herramientas de análisis y **Machine Learning** para trabajar con información histórica y generar predicciones de demanda.
+Permite gestionar productos, inventario, categorías, marcas, usuarios, facturas y reportes. También incorpora herramientas de análisis de datos para estudiar el comportamiento de productos, detectar productos con baja rotación y apoyar decisiones relacionadas con la reposición.
 
-**Tecnologías:** Python · Django · PostgreSQL · JavaScript · Scikit-learn · HTML · CSS
+**Problema que resuelve:** facilita el control del inventario y ayuda a tomar decisiones relacionadas con reposición y comportamiento de productos mediante análisis de datos.
+
+**Tecnologías:** Python · Django · SQLite · HTML · CSS · Tailwind CSS · JavaScript · Pandas · NumPy · SciPy · Scikit-learn · Chart.js · WeasyPrint · Pillow
+
+🔗 **Repositorio:** [InventFast](https://github.com/dmoinap/inventfast)
 
 ---
 
 ## 🏥 Sistema de Gestión de Citas Médicas
 
-Aplicación web desarrollada con **Django** para centralizar la gestión de pacientes, médicos, citas y atenciones médicas.
+Aplicación web desarrollada con Django para gestionar pacientes, médicos, citas y atenciones médicas.
 
-También incorpora funcionalidades como autenticación, permisos, generación de documentos PDF, envío de correos electrónicos e integración con servicios externos.
+Incluye registro e inicio de sesión, perfiles de usuario, control de permisos, gestión de pacientes y doctores, citas médicas, atenciones, exámenes, medicamentos, tipos de sangre, generación de documentos PDF e integraciones de correo y pagos.
 
-**Tecnologías:** Python · Django · PostgreSQL · Bootstrap · JavaScript · ReportLab · PayPal · Resend
+**Problema que resuelve:** centraliza la gestión de información médica y citas, reduciendo la dependencia de procesos manuales para organizar pacientes, médicos y atenciones.
+
+**Tecnologías:** Python · Django · HTML · CSS · Bootstrap · JavaScript · SQLite · PostgreSQL · ReportLab · Pillow · django-widget-tweaks · django-extensions · django-celery-beat · Resend · PayPal REST SDK · python-dotenv
+
+🔗 **Repositorio:** [Sistema de Gestión de Citas Médicas](https://github.com/dmoinap/sistema-citas-medicas)
 
 ---
 
 ## 🌽 Detección de Enfermedades en Cultivos de Maíz
 
-Proyecto de **Inteligencia Artificial basado en Deep Learning** orientado a la clasificación y detección de enfermedades y plagas presentes en hojas de maíz.
+Sistema de visión artificial desarrollado para clasificar y detectar enfermedades y plagas presentes en hojas de maíz mediante técnicas de Deep Learning.
 
-El proyecto busca utilizar técnicas de visión por computadora para analizar imágenes y apoyar la identificación de posibles afectaciones en los cultivos.
+Durante el proyecto se trabajó con diferentes arquitecturas CNN, entre ellas MobileNetV2, ResNet50 y EfficientNetB0, además de YOLOv8 para la detección y localización. Los modelos fueron integrados posteriormente en una interfaz interactiva con Gradio.
 
-**Tecnologías:** Python · Deep Learning · Computer Vision
+**Problema que resuelve:** busca apoyar el diagnóstico fitosanitario mediante la detección automática de enfermedades y plagas, reduciendo la dependencia de inspecciones visuales manuales.
 
----
+**Resultado destacado:** MobileNetV2 alcanzó una exactitud de **94,54 %** y un **F1-Score de 0,94**.
 
-# 📸 Vista previa
+**Tecnologías:** Python · TensorFlow · Keras · YOLOv8 · Ultralytics · MobileNetV2 · ResNet50 · EfficientNetB0 · Transfer Learning · Gradio · Google Colab
 
-> Puedes colocar aquí capturas del portafolio para mostrar el diseño y sus principales secciones.
+🔗 **Notebook 1:** [Abrir en Google Colab](https://colab.research.google.com/drive/1iUB0MeePZXqdhwMYhr2fLbnHPYpbhJj9?usp=sharing)
 
-Por ejemplo:
-
-```text
-screenshots/
-├── home.png
-├── about.png
-├── projects.png
-├── design-system.png
-└── contact.png
-```
+🔗 **Notebook 2:** [Abrir en Google Colab](https://colab.research.google.com/drive/1Y7jxb_IZwSDg4-xq8hg_4HoFhItrGrkr?usp=sharing)
 
 ---
 
 # ⚙️ Ejecutar el proyecto localmente
 
-### 1. Clonar el repositorio
+## 1. Clonar el repositorio
 
 ```bash
 git clone https://github.com/dmoinap/Portafolio-Chris_DW.git
 ```
 
-### 2. Entrar al proyecto
+## 2. Entrar a la carpeta del proyecto
 
 ```bash
 cd Portafolio-Chris_DW
 ```
 
-### 3. Abrir el proyecto
+## 3. Abrir el proyecto
 
-Al tratarse de un proyecto frontend basado en HTML, CSS y JavaScript, puedes abrir directamente:
+Al tratarse de un sitio desarrollado con HTML, CSS y JavaScript, se puede abrir directamente el archivo:
 
 ```text
 index.html
 ```
 
-También puedes utilizar **Live Server** desde Visual Studio Code para ejecutarlo durante el desarrollo.
+También se puede utilizar la extensión **Live Server** de Visual Studio Code durante el desarrollo.
 
 ---
 
 # 🌐 Publicación
 
-El proyecto está desplegado mediante **GitHub Pages**, permitiendo acceder al portafolio directamente desde la web.
+El portafolio se encuentra publicado mediante **GitHub Pages**.
 
-🔗 **[Visitar mi portafolio](https://dmoinap.github.io/Portafolio-Chris_DW/)**
+🔗 **Sitio web:** [https://dmoinap.github.io/Portafolio-Chris_DW/](https://dmoinap.github.io/Portafolio-Chris_DW/)
+
+🔗 **Repositorio:** [https://github.com/dmoinap/Portafolio-Chris_DW](https://github.com/dmoinap/Portafolio-Chris_DW)
 
 ---
 
 # 📚 Lo que aprendí
 
-Durante el desarrollo de este proyecto trabajé diferentes aspectos relacionados con el desarrollo frontend:
+Durante el desarrollo de este proyecto trabajé diferentes aspectos relacionados con desarrollo web:
 
-* Estructuración semántica con HTML5.
-* Diseño de interfaces utilizando CSS3.
-* Responsive Web Design.
-* Manipulación del DOM con JavaScript.
-* Implementación de eventos e interacciones.
-* Validación de formularios.
-* Creación de filtros dinámicos.
-* Implementación de modo claro y oscuro.
-* Organización visual mediante un Design System.
-* Control de versiones con Git.
-* Gestión de repositorios con GitHub.
-* Despliegue de sitios mediante GitHub Pages.
+- Estructuración semántica con HTML5.
+- Organización de contenido mediante secciones y componentes.
+- Diseño de interfaces utilizando CSS3.
+- Uso de CSS Custom Properties.
+- Responsive Web Design.
+- Flexbox y CSS Grid.
+- Manipulación del DOM con JavaScript.
+- Implementación de eventos e interacciones.
+- Validación de formularios.
+- Creación de filtros dinámicos.
+- Implementación de modo claro y oscuro.
+- Uso de `localStorage`.
+- Creación de un botón para volver al inicio.
+- Organización visual mediante un Design System.
+- Control de versiones con Git.
+- Gestión de repositorios con GitHub.
+- Publicación de sitios web mediante GitHub Pages.
 
 ---
 
 # 🎨 Design System
 
-El proyecto utiliza un sistema visual propio para mantener consistencia entre sus diferentes secciones.
+El proyecto utiliza un sistema visual propio para mantener consistencia entre las diferentes páginas del portafolio.
 
-Este sistema contempla elementos como:
+Incluye:
 
-* 🎨 Paleta de colores
-* 🔤 Tipografías
-* 🔘 Botones
-* 🃏 Tarjetas
-* 📐 Espaciado
-* 🧩 Componentes de interfaz
-* 🌓 Modos de visualización
+- 🎨 Paleta de colores.
+- 🔤 Tipografía.
+- 🔘 Botones.
+- 🃏 Tarjetas.
+- 🏷️ Badges y etiquetas.
+- 📝 Campos de formulario.
+- 📐 Escala de espaciado.
+- 🌓 Modo claro y oscuro.
+- 📱 Componentes responsive.
 
-El **Design System** forma parte del propio portafolio y permite mantener una identidad visual coherente durante toda la navegación.
-
----
-
-# 🔮 Próximas mejoras
-
-El portafolio continuará evolucionando junto con mi formación.
-
-Algunas mejoras que pueden incorporarse:
-
-* [ ] Agregar nuevos proyectos.
-* [ ] Incorporar una sección de experiencia.
-* [ ] Mejorar las animaciones e interacciones.
-* [ ] Optimizar accesibilidad.
-* [ ] Mejorar SEO.
-* [ ] Incorporar versiones en otros idiomas.
-* [ ] Añadir demostraciones interactivas de proyectos.
-* [ ] Mejorar el rendimiento y optimización de recursos.
+El Design System permite reutilizar estilos y componentes en diferentes secciones del sitio, manteniendo una identidad visual coherente.
 
 ---
 
-## 💙 Un proyecto que seguirá creciendo
+# 📁 Estructura general del proyecto
 
-Este portafolio representa una parte de mi proceso de aprendizaje como estudiante de **Ingeniería de Software**.
+```text
+Portafolio-Chris_DW/
+│
+├── assest/
+│   ├── icons/
+│   └── image/
+│       └── proyectos/
+│
+├── css/
+│   └── styles.css
+│
+├── js/
+│   └── script.js
+│
+├── pages/
+│   ├── sobre_mi.html
+│   ├── habilidades.html
+│   ├── proyectos.html
+│   ├── design-system.html
+│   └── contacto.html
+│
+├── index.html
+└── README.md
+```
 
-Cada proyecto presentado refleja una etapa diferente de mi formación y las tecnologías que he ido explorando y aprendiendo.
+---
+
+# 👩‍💻 Autor
+
+## Dyanne Moina
+
+**Estudiante de Ingeniería de Software**  
+Universidad Estatal de Milagro — UNEMI
+
+🐙 **GitHub:** [github.com/dmoinap](https://github.com/dmoinap)
+
+🌐 **Portafolio:** [dmoinap.github.io/Portafolio-Chris_DW](https://dmoinap.github.io/Portafolio-Chris_DW/)
+
+---
 
 > **Aprender, construir y seguir mejorando. 🚀**
-
----
-
-## 👩‍💻 Dyanne Moina
-
-**Estudiante de Ingeniería de Software**
-
-💻 Desarrollo de software · 🌐 Desarrollo web · 🤖 Inteligencia Artificial · 📊 Tecnología
-
-⭐ Si te parece interesante el proyecto, puedes darle una estrella al repositorio.
-
-Sitio publicado con GitHub Pages.
