@@ -260,3 +260,5 @@ Cada proyecto presentado refleja una etapa diferente de mi formación y las tecn
 💻 Desarrollo de software · 🌐 Desarrollo web · 🤖 Inteligencia Artificial · 📊 Tecnología
 
 ⭐ Si te parece interesante el proyecto, puedes darle una estrella al repositorio.
+
+Sitio publicado con GitHub Pages.
